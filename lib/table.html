@@ -1,0 +1,15 @@
+<template name="table">
+  <table id="myTable">
+    <thead>
+      {{#each heads}}
+        {{> tableHead}}
+      {{/each}}
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</template>
+
+<template name="tableHead">
+  <th>{{headName}}</th>
+</template>
