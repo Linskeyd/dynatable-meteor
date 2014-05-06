@@ -1,0 +1,11 @@
+{
+	"name": "dynatable-meteor",
+	"description": "",
+	"homepage": "www.dynatable.com",
+	"author": "Steve Schwartz",
+	"version": "0.1.0",
+	"git": "",
+	"packages": {
+		"blaze-layout": "0.2.2"
+	}
+}

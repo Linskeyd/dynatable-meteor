@@ -1,15 +1,26 @@
-<template name="table">
+<template name="meteorDynatable">
   <table id="myTable">
     <thead>
-      {{#each heads}}
-        {{> tableHead}}
-      {{/each}}
+      <tr>
+        {{#each heads}}
+          {{> tableHead}}
+        {{/each}}
+      </tr>
     </thead>
     <tbody>
+      <!--{{#each tableRows}}
+        <tr>
+          {{> tableRow}}
+        </tr>
+      {{/each}}-->
     </tbody>
   </table>
 </template>
 
 <template name="tableHead">
   <th>{{headName}}</th>
+</template>
+
+<template name="tableRow">
+  {{> rowData}}
 </template>

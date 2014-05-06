@@ -1730,4 +1730,4 @@
 
   $.dynatable(dt);
 
-})(jQuery);
+}(jQuery));

@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "dynatable-meteor": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "dynatable-meteor": {
+        "path": "."
+      }
+    }
+  }
+}
